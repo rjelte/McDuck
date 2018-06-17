@@ -1,0 +1,2 @@
+# McDuck
+Realistic money visualizer
