@@ -111,9 +111,9 @@ public class MoneyChuteController : MonoBehaviour {
     private Money ResetMoney()
     {
         Money money = null;
-		money = Instantiate(Dollar);
-        money.transform.parent = transform;
-        money.transform.localPosition = new Vector3(0, -0.3f, 0);
+		money = Instantiate(Dollar, null);
+    //    money.transform.parent = transform;
+        money.transform.localPosition = transform.position + new Vector3(0, -0.3f, 0);
         money.IsAlive = true;
         return money;
     }
