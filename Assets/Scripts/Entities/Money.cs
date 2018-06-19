@@ -11,7 +11,8 @@ public class Money : MonoBehaviour {
 
     private const float GravityAcceleration = 3400.0f;
     private const float MaxFallSpeed = 550.0f;
-
+    private Collider m_collider;
+    private Rigidbody m_rigidbody;
     private Vector2 basePosition;
     private float bounce;
     private Vector2 velocity;
@@ -19,12 +20,9 @@ public class Money : MonoBehaviour {
     // Use this for initialization
     void Start () {
         basePosition = transform.localPosition;
+        m_collider = GetComponent<Collider>();
+        m_rigidbody = GetComponent<Rigidbody>();
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     private bool CheckIfFell()
     {
@@ -59,6 +57,25 @@ public class Money : MonoBehaviour {
         }else if(collision.gameObject.tag == "MoneyChute" && VacuumMoney)
         {
             IsAlive = false;
+        }
+
+        if (collision.gameObject.layer.Equals(8) && !gameObject.tag.Equals("childMoney"))
+        {
+            gameObject.tag = "parentMoney";
+        }
+        if (collision.gameObject.tag.Equals("parentMoney") && gameObject.tag.Equals("money"))
+        {
+            m_collider.enabled = false;
+            m_rigidbody.isKinematic = true;
+            gameObject.transform.parent = collision.gameObject.transform;
+            gameObject.tag = "childMoney";
+        }
+        else if (collision.gameObject.tag.Equals("childMoney") && gameObject.tag.Equals("money"))
+        {
+            m_collider.enabled = false;
+            m_rigidbody.isKinematic = true;
+            gameObject.transform.parent = collision.gameObject.transform.root;
+            gameObject.tag = "childMoney";
         }
     }
 }
