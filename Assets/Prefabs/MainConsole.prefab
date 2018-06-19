@@ -3096,7 +3096,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1635845927073670}
-  m_LocalRotation: {x: -0.47771445, y: 0.5213338, z: 0.4777145, w: 0.52133375}
+  m_LocalRotation: {x: -0.5, y: 0.50000006, z: 0.50000006, w: 0.5}
   m_LocalPosition: {x: -0.6, y: 0.238, z: 0.029000036}
   m_LocalScale: {x: 0.49999994, y: 1.990237, z: 0.4228205}
   m_Children:
@@ -3106,7 +3106,7 @@ Transform:
   - {fileID: 4489469290069960}
   m_Father: {fileID: 4735474396126120}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -85.00001, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 90.00001, z: 0}
 --- !u!4 &4438362798060414
 Transform:
   m_ObjectHideFlags: 1
@@ -9287,7 +9287,7 @@ MonoBehaviour:
         m_MethodName: SetTargetPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 114727190143167804, guid: 36a2771aaa3877c49913adea57732ca4,
+          m_ObjectArgument: {fileID: 114727190143167804, guid: 71a67a7b456874ce7ae84d1f65215983,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: ValueObject, Assembly-CSharp
           m_IntArgument: 0
@@ -9311,6 +9311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Salary: 0
   SalaryText: {fileID: 114123002189583688}
+  CurrencyText: {fileID: 114967805091098810}
   TargetPrefab: {fileID: 0}
   ChuteController: {fileID: 0}
   TryUsePartial: 0
@@ -11059,7 +11060,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.4999963, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.29200923, y: -1.0100025, z: -0.15500084}
+  m_ConnectedAnchor: {x: 0.29200923, y: -1.0100033, z: -0.15500255}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0

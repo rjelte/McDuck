@@ -9,6 +9,7 @@ public class McDuckConsole : MonoBehaviour {
 	public int Salary;
 
 	public Text SalaryText;
+	public Text CurrencyText;
 
 	public ValueObject TargetPrefab;
 
@@ -51,6 +52,12 @@ public class McDuckConsole : MonoBehaviour {
 	{
 		TargetPrefab = targetPrefab;
 		ChuteController.Dollar = TargetPrefab.Money;
+		UpdateCurrencyText();
+	}
+
+	private void UpdateCurrencyText()
+	{
+		CurrencyText.text = string.Format("{0} {1}s",TargetPrefab.Value, TargetPrefab.Name);
 	}
 
 	public void MakeItRain()
