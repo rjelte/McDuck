@@ -1,0 +1,8 @@
+NOTES :
+
+- If you want an optimal visual quality please import the unity package "Post processing stack" available for free on the asset store : https://www.assetstore.unity3d.com/en/#!/content/83912
+  Download and import the package into your project. Then look after the file "PostProcessingVault.asset" and drag n' drop it on the "BehaviourPostProcessing" script on the camera.
+
+
+- If you modify the room and the door prefabs , make sure to have the reflection probes inside them, otherwise the metal might appear black.
+
