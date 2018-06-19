@@ -77,11 +77,11 @@ public class MoneyChuteController : MonoBehaviour {
     {
         spawnTimer -= 1;
 
-        if (spawnTimer == 0 && Money.Count < MaxMoneyCount)
+        if (spawnTimer <= 0 && Money.Count < MaxMoneyCount)
         {
             spawnTimer = InitialSpawnTimer;
 
-            Money gem = ResetMoney(MoneyTypes.Dollars);
+            Money gem = ResetMoney();
             Money.Add(gem);
         }
 
@@ -108,15 +108,10 @@ public class MoneyChuteController : MonoBehaviour {
         }
     }
 
-    private Money ResetMoney(string moneyType)
+    private Money ResetMoney()
     {
         Money money = null;
-        switch (moneyType)
-        {
-            case MoneyTypes.Dollars:
-                money = Instantiate(Dollar);
-                break;
-        }
+		money = Instantiate(Dollar);
         money.transform.parent = transform;
         money.transform.localPosition = new Vector3(0, -0.3f, 0);
         money.IsAlive = true;

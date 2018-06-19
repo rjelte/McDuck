@@ -12,6 +12,8 @@ public class McDuckConsole : MonoBehaviour {
 
 	public ValueObject TargetPrefab;
 
+	public MoneyChuteController ChuteController;
+
 	public bool TryUsePartial = false;
 
 	// Use this for initialization
@@ -48,16 +50,14 @@ public class McDuckConsole : MonoBehaviour {
 	public void SetTargetPrefab(ValueObject targetPrefab)
 	{
 		TargetPrefab = targetPrefab;
+		ChuteController.Dollar = TargetPrefab.Money;
 	}
 
 	public void MakeItRain()
 	{
 		int totalElements = Salary / TargetPrefab.Value;
-	}
-
-	// Could be float for fractions
-	public void SpawnPrefabs(int count)
-	{
-
+		ChuteController.MaxMoneyCount = totalElements;
+		ChuteController.SpawnMoney = true;
+		ChuteController.InitialSpawnTimer = 5;
 	}
 }
