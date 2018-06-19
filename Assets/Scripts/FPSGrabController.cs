@@ -36,6 +36,26 @@ public class FPSGrabController : MonoBehaviour
 		collidingObject = null;
 	}
 
+	public void OnCollisionEnter(Collision collision)
+	{
+		SetCollidingObject(collision.collider);
+	}
+
+	public void OnCollisionStay(Collision collision)
+	{
+		SetCollidingObject(collision.collider);
+	}
+
+	public void OnCollisionExit(Collision collision)
+	{
+		if (!collidingObject)
+		{
+			return;
+		}
+
+		collidingObject = null;
+	}
+
 	private void SetCollidingObject(Collider col)
 	{
 		if (collidingObject || !col.GetComponent<Rigidbody>() || objectInHand)

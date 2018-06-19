@@ -526,7 +526,7 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
-		public static void ForEach<T>( this IEnumerable<T> source, Action<T> action )
+		public static void ForEach<T>( this IEnumerable<T> source, System.Action<T> action )
 		{
 			if ( source == null )
 			{
