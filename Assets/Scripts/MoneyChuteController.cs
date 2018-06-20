@@ -9,6 +9,7 @@ public class MoneyChuteController : MonoBehaviour {
     public int MaxMoneyCount;
     public bool SpawnMoney;
     public bool VacuumMoney;
+	public int TotalToSpawn;
 
     private List<Money> Money = new List<Money>();
 
@@ -26,7 +27,7 @@ public class MoneyChuteController : MonoBehaviour {
 	void Update () {
         
 
-        if (SpawnMoney)
+        if (SpawnMoney && TotalToSpawn > 0)
         {
             DropMoney();
         }
@@ -79,6 +80,7 @@ public class MoneyChuteController : MonoBehaviour {
 
         if (spawnTimer <= 0 && Money.Count < MaxMoneyCount)
         {
+			TotalToSpawn--;
             spawnTimer = InitialSpawnTimer;
 
             Money gem = ResetMoney();

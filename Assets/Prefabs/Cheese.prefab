@@ -154,9 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8df40558504dfd40baa308de5e3bc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Value: 1
+  Value: 40
   Name: Cheese
-  ConversionFromUSD: 20
+  ConversionFromUSD: 1
   Money: {fileID: 114778493405194784}
 --- !u!114 &114778493405194784
 MonoBehaviour:
