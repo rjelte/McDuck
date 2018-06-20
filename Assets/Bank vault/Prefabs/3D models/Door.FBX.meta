@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 66d0100106a288143ad0ba9f62f144e2
+timeCreated: 1479732615
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Circle001
+    100004: Cylinder001
+    100006: Cylinder002
+    100008: Cylinder003
+    100010: Cylinder004
+    100012: //RootNode
+    100014: Line001
+    100016: Object001
+    100018: Object002
+    100020: Object003
+    100022: Object005
+    100024: Object006
+    100026: Object007
+    100028: Cylinder005
+    100030: Cylinder006
+    100032: Cylinder007
+    100034: Cylinder008
+    100036: Cylinder009
+    100038: Cylinder010
+    100040: Cylinder011
+    100042: Cylinder012
+    100044: Cylinder013
+    100046: Cylinder014
+    100048: Cylinder015
+    100050: Cylinder016
+    100052: Box002
+    100054: Door
+    100056: Door vault
+    100058: handle
+    100060: Object008
+    100062: Object009
+    100064: Object010
+    100066: Object011
+    400000: Box001
+    400002: Circle001
+    400004: Cylinder001
+    400006: Cylinder002
+    400008: Cylinder003
+    400010: Cylinder004
+    400012: //RootNode
+    400014: Line001
+    400016: Object001
+    400018: Object002
+    400020: Object003
+    400022: Object005
+    400024: Object006
+    400026: Object007
+    400028: Cylinder005
+    400030: Cylinder006
+    400032: Cylinder007
+    400034: Cylinder008
+    400036: Cylinder009
+    400038: Cylinder010
+    400040: Cylinder011
+    400042: Cylinder012
+    400044: Cylinder013
+    400046: Cylinder014
+    400048: Cylinder015
+    400050: Cylinder016
+    400052: Box002
+    400054: Door
+    400056: Door vault
+    400058: handle
+    400060: Object008
+    400062: Object009
+    400064: Object010
+    400066: Object011
+    2300000: Box001
+    2300002: Circle001
+    2300004: Cylinder001
+    2300006: Cylinder002
+    2300008: Cylinder003
+    2300010: Cylinder004
+    2300012: Line001
+    2300014: Object001
+    2300016: Object002
+    2300018: Object003
+    2300020: Object005
+    2300022: Object006
+    2300024: Object007
+    2300026: Cylinder005
+    2300028: Cylinder006
+    2300030: Cylinder007
+    2300032: Cylinder008
+    2300034: Cylinder009
+    2300036: Cylinder010
+    2300038: Cylinder011
+    2300040: Cylinder012
+    2300042: Cylinder013
+    2300044: Cylinder014
+    2300046: Cylinder015
+    2300048: Cylinder016
+    2300050: Box002
+    2300052: Door
+    2300054: handle
+    2300056: Object008
+    2300058: Object009
+    2300060: Object010
+    2300062: Object011
+    3300000: Box001
+    3300002: Circle001
+    3300004: Cylinder001
+    3300006: Cylinder002
+    3300008: Cylinder003
+    3300010: Cylinder004
+    3300012: Line001
+    3300014: Object001
+    3300016: Object002
+    3300018: Object003
+    3300020: Object005
+    3300022: Object006
+    3300024: Object007
+    3300026: Cylinder005
+    3300028: Cylinder006
+    3300030: Cylinder007
+    3300032: Cylinder008
+    3300034: Cylinder009
+    3300036: Cylinder010
+    3300038: Cylinder011
+    3300040: Cylinder012
+    3300042: Cylinder013
+    3300044: Cylinder014
+    3300046: Cylinder015
+    3300048: Cylinder016
+    3300050: Box002
+    3300052: Door
+    3300054: handle
+    3300056: Object008
+    3300058: Object009
+    3300060: Object010
+    3300062: Object011
+    4300000: Cylinder001
+    4300002: Box001
+    4300004: Object001
+    4300006: Object002
+    4300008: Object003
+    4300010: Cylinder002
+    4300012: Cylinder003
+    4300014: Cylinder004
+    4300016: Circle001
+    4300018: Object005
+    4300020: Object006
+    4300022: Object007
+    4300024: Line001
+    4300026: Cylinder005
+    4300028: Cylinder006
+    4300030: Cylinder007
+    4300032: Cylinder008
+    4300034: Cylinder009
+    4300036: Cylinder010
+    4300038: Cylinder011
+    4300040: Cylinder012
+    4300042: Cylinder013
+    4300044: Cylinder014
+    4300046: Cylinder015
+    4300048: Cylinder016
+    4300050: Box002
+    4300052: Object008
+    4300054: Door
+    4300056: handle
+    4300058: Object011
+    4300060: Object010
+    4300062: Object009
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
