@@ -170,6 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Value: 20
-  Name: Dollar
+  Name: 20 Dollar Bills
   ConversionFromUSD: 1
   Money: {fileID: 114614105643141898}

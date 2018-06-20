@@ -57,13 +57,13 @@ public class McDuckConsole : MonoBehaviour {
 
 	private void UpdateCurrencyText()
 	{
-		CurrencyText.text = string.Format("{0} {1}s",TargetPrefab.Value, TargetPrefab.Name);
+		CurrencyText.text = string.Format("{0}",TargetPrefab.Name);
 	}
 
 	public void MakeItRain()
 	{
 		int totalElements = Salary / TargetPrefab.Value;
-		ChuteController.MaxMoneyCount = totalElements;
+		ChuteController.TotalToSpawn = totalElements;
 		ChuteController.SpawnMoney = true;
 		ChuteController.InitialSpawnTimer = 5;
 	}
