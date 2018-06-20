@@ -26,7 +26,8 @@ public class Money : MonoBehaviour {
 
     private bool CheckIfFell()
     {
-        return transform.localPosition.y > 3 || transform.localPosition.y < -200;
+        return transform.localPosition.y > 3 || transform.localPosition.y < -200
+            || (VacuumMoney && transform.localPosition == new Vector3(0, -0.3f, 0));
     }
     
     public void UpdateMoney()

@@ -46,6 +46,7 @@ public class McDuckConsole : MonoBehaviour {
 	{
 		Salary = 0;
 		UpdateSalaryText();
+        ChuteController.VacuumMoney = true;
 	}
 
 	public void SetTargetPrefab(ValueObject targetPrefab)

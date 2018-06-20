@@ -29,6 +29,7 @@ public class MoneyChuteController : MonoBehaviour {
 
         if (SpawnMoney && TotalToSpawn > 0)
         {
+            VacuumMoney = false;
             DropMoney();
         }
         else if (VacuumMoney)
@@ -58,7 +59,8 @@ public class MoneyChuteController : MonoBehaviour {
         Money.ForEach(money =>
         {
             float perc = currentLerpTime / lerpTime;
-            money.transform.localPosition = Vector3.Lerp(money.transform.localPosition, transform.localPosition, perc);
+            money.transform.parent = transform;
+            money.transform.localPosition = Vector3.Lerp(money.transform.localPosition, new Vector3(0, -0.3f, 0), perc);
             money.VacuumMoney = VacuumMoney;
             money.UpdateMoney();
             if (!money.IsAlive)
@@ -114,7 +116,6 @@ public class MoneyChuteController : MonoBehaviour {
     {
         Money money = null;
 		money = Instantiate(Dollar, null);
-    //    money.transform.parent = transform;
         money.transform.localPosition = transform.position + new Vector3(0, -0.3f, 0);
         money.IsAlive = true;
         return money;
