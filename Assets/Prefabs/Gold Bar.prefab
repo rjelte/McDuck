@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1106376910651172}
+  m_RootGameObject: {fileID: 1831818835982368}
   m_IsPrefabParent: 1
---- !u!1 &1060884468612240
+--- !u!1 &1699669449311218
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4286502010760458}
-  - component: {fileID: 33848773141185992}
-  - component: {fileID: 23952869889331650}
+  - component: {fileID: 4295885592750090}
+  - component: {fileID: 33151095005823684}
+  - component: {fileID: 23919428548098292}
   m_Layer: 0
   m_Name: Gold bar (4)
   m_TagString: Untagged
@@ -28,18 +28,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!1 &1106376910651172
+--- !u!1 &1831818835982368
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4656157119707210}
-  - component: {fileID: 114241226607018514}
-  - component: {fileID: 114489422498151516}
-  - component: {fileID: 65717632606904116}
-  - component: {fileID: 54211349666630552}
+  - component: {fileID: 4251920679906714}
+  - component: {fileID: 114277009500134642}
+  - component: {fileID: 114251289307335578}
+  - component: {fileID: 54846155956110596}
+  - component: {fileID: 65101088685537502}
   m_Layer: 0
   m_Name: Gold Bar
   m_TagString: Untagged
@@ -47,39 +47,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4286502010760458
+--- !u!4 &4251920679906714
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1060884468612240}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.206, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
-  m_Children: []
-  m_Father: {fileID: 4656157119707210}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!4 &4656157119707210
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106376910651172}
+  m_GameObject: {fileID: 1831818835982368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.632, y: 0.665, z: -0.112}
+  m_LocalPosition: {x: 0.6531, y: 0.238, z: 0.8935}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4286502010760458}
+  - {fileID: 4295885592750090}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23952869889331650
+--- !u!4 &4295885592750090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699669449311218}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.545, y: 0.518, z: 0.003}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4251920679906714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &23919428548098292
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1060884468612240}
+  m_GameObject: {fileID: 1699669449311218}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -109,19 +109,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33848773141185992
+--- !u!33 &33151095005823684
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1060884468612240}
+  m_GameObject: {fileID: 1699669449311218}
   m_Mesh: {fileID: 4300000, guid: 109a184f27e2804499af8dab25d2088f, type: 3}
---- !u!54 &54211349666630552
+--- !u!54 &54846155956110596
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106376910651172}
+  m_GameObject: {fileID: 1831818835982368}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -131,39 +131,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65717632606904116
+--- !u!65 &65101088685537502
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106376910651172}
+  m_GameObject: {fileID: 1831818835982368}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.108662106, y: 0.02677957, z: 0.102122895}
-  m_Center: {x: 0, y: -0.0000000023283064, z: -0.000000011175871}
---- !u!114 &114241226607018514
+  m_Size: {x: 0.12, y: 0.12, z: 0.24}
+  m_Center: {x: -0.55, y: 0.56, z: 0}
+--- !u!114 &114251289307335578
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106376910651172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8df40558504dfd40baa308de5e3bc5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Value: 40000
-  Name: Gold
-  ConversionFromUSD: 1
-  Money: {fileID: 114489422498151516}
---- !u!114 &114489422498151516
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106376910651172}
+  m_GameObject: {fileID: 1831818835982368}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40d792168ebd8354b9cfe04be0a98458, type: 3}
@@ -172,3 +157,18 @@ MonoBehaviour:
   IsAlive: 0
   IsOnGround: 0
   VacuumMoney: 0
+--- !u!114 &114277009500134642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831818835982368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8df40558504dfd40baa308de5e3bc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 40000
+  Name: Gold
+  ConversionFromUSD: 1
+  Money: {fileID: 114251289307335578}
